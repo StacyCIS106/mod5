@@ -6,6 +6,6 @@ elif item_quantity <= 1000:
 extended_price = item_quantity * price_unit
 tax = extended_price * 0.07
 total = extended_price + tax
-print(f"Extended price is ${extended_price}")
-print(f"Tax is ${tax}")
-print(f"Total is ${total}")
+print("Extended price is $",extended_price)
+print("Tax is $",tax)
+print("Total is $",total)
